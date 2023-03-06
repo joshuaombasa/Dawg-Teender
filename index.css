@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.header-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header-img-profile {
+    width: 30px;
+    margin: 10px  auto auto 10px;
+    padding: 5px;
+}
+
+.header-img-chat {
+    width: 30px;
+    padding: 20px;
+    margin: 10px 10px auto auto ;
+}
+
+.header-img-logo {
+    width: 80px;
+    padding: 20px;
+    margin: auto;
+}
+
+.container {
+    width: 550px;
+    margin: 0 auto;
+}
+
+.dog-img-container  {
+    position: relative;
+}
+
+.dog-img {
+    
+    width: 500px;
+    height: 450px;
+    padding: 0 10px 0 10px;
+    border-radius: 40px;
+}
+
+.footer-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    height: 100px;
+}
+
+.footer-img-styling {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+}
+
+.modal-text {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    font-weight: bold;
+    
+}
+
+.dog-name-description {
+    color: #fff;
+}
+
+.dog-message {
+    color: #B7B7B7;
+}
+
+.modal-text h3, .modal-text p  {
+    margin: 0;
+} 
+
+button {
+    border: none;
+    border-radius: 50%;
+}
+
+.cross-btn:hover {
+    background-color: #FFE7EF;
+}
+
+.like-btn:hover {
+    background-color: #DBFFF4;
+}
+
+.like-badge, .nope-badge  {
+    width: 150px;
+    top: 50px;
+    left: 20px;
+    position: absolute;
+    -webkit-transform:rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
