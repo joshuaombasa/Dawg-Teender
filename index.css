@@ -105,3 +105,11 @@ button {
     transform: rotate(-30deg);
 }
 
+.like-badge {
+    display: none;
+}
+
+.nope-badge {
+    display: none;
+}
+
