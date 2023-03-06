@@ -4,6 +4,17 @@ let randomNumber = Math.floor(Math.random() * dogs.length)
 const dogImage = document.getElementById("dog-image")
 const modalTtext = document.getElementById("modal-text")
 
+document.addEventListener("click", (e) => {
+   if (e.target.id === 'cross-btn') {
+    document.getElementById('nope-badge').style.display = 'block'
+    document.getElementById("like-badge").style.display = 'none'
+   } else if (e.target.id === 'like-btn') {
+    document.getElementById('nope-badge').style.display = 'none'
+    document.getElementById("like-badge").style.display = 'block'
+   }
+    
+})
+
 function renderInitialPhoto() {
     let dogHtml = 
     `<img class="dog-img" src="${dogs[randomNumber].avatar}" alt="">
