@@ -7,3 +7,9 @@ The code sets up event listeners for when the user clicks on the "cross" or "lik
 After the user clicks on either button, the program waits for 1 second before displaying the next dog image and description in the array. The program uses the "renderInitialPhoto" and "renderDogDescription" functions to display the current dog image and description on the page.
 
 There is an event listener attached to the document object that waits for clicks. If the user clicks the "cross" button, a badge with the text "nope" is displayed and the hasBeenSwiped property of the current dog object is set to true. If the user clicks the "like" button, a badge with the text "like" is displayed and the hasBeenLiked property of the current dog object is set to true.
+
+After a one second delay, a new dog image and description are rendered using the renderInitialPhoto() and renderDogDescription() functions, and the randomNumber variable is incremented.
+
+The renderInitialPhoto() function creates an HTML string that includes an <img> element with the URL of the current dog's avatar.
+
+The renderDogDescription() function creates an HTML string that includes a heading with the dog's name and age, and a paragraph with the dog's bio.
