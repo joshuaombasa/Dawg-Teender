@@ -2,3 +2,4 @@
 This code is a JavaScript program that displays a series of dog images and their descriptions, and allows the user to interact with them by clicking on the "cross" or "like" buttons.
 The code imports a "dogs" array from a "data.js" file, which contains information about each dog, including their name, age, avatar image, and bio.
 
+The code sets up event listeners for when the user clicks on the "cross" or "like" buttons. If the user clicks on the "cross" button, the program displays a "nope" badge and sets the "hasBeenSwiped" property of the current dog object in the "dogs" array to true. If the user clicks on the "like" button, the program displays a "like" badge and sets the "hasBeenLiked" property of the current dog object in the "dogs" array to true.
